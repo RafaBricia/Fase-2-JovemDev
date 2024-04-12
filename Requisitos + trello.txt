@@ -1,0 +1,21 @@
+Requisitos Funcionais:
+
+Módulos do curso;
+Acompanhamento do progresso;
+Sistemas de avaliação;
+Suporte técnico;
+Acessibilidade;
+Recursos de informação;
+Sistema de autentificação;
+Biblioteca Virtual;
+Interfaces externos.
+Requisitos Não-Funcionais:
+
+Uso obrigatório de uma conexão (dados móveis ou wi-fi).
+Manutenção do sistema.
+Confiabilidade;
+Responsividade.
+Atividade
+
+
+Link do Trello: https://trello.com/b/ogjZzXSq

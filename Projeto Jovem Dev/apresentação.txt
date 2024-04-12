@@ -1,0 +1,11 @@
+Curso: Sistemas de informação
+Competência: Front-end
+Turno: manhã
+Período: 3
+
+Grupo:
+
+- Jonas Mendes
+- Luiz Neto
+- Rafaela Brícia
+- Wictor Firmino

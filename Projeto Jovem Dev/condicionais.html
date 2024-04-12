@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas de Condicionais</title>
+    <link rel="stylesheet" href="style/topicosStyle.css">
+    <link rel="icon"
+        href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcfAoiA7p0vsVCLQYiN0RiZxDjnB5oJspDuLqYaAxF0QT7Z93RkqKkEuLcGEWbUpmi-mySUExy2H9OYSKgcL6hwFrPNgKqJXCYI34jBYRTeR10HDAEnp-r9wct7JMVr2-OJGOj41TzD2W6HkkDLOz-_nGGD2N0tqieNaSgPDDO61Tcte93cI1eRKEPcu0W/s320/logo-branca.png"
+        type="image/x-icon" />
+</head>
+
+<body>
+
+    <!--CABEÇALHO PARA DESKTOP-->
+
+    <div class="container" id="desktop">
+        <div class="logo">
+            <img src="image/logo jovemdevpng.png" alt="logo jovem dev" style="height: 160px;">
+        </div>
+        <div class="opcoes">
+            <nav>
+                <ul>
+                    <li><a href="pagina-cursos.html">Cursos</a></li>
+                    <li><a href="#">Suporte</a></li>
+                    <li><a href="#">Meus estudos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icone-perfil">
+            <img src="image/ICONE PERFIL.svg" alt="icone-perfil" style="height: 50px;">
+        </div>
+
+    </div>
+
+<!--FIM DO CABEÇALHO PARA DESKTOP-->
+    
+<!--CABEÇALHO PARA MOBILE-->
+
+    <div class="container-mobile" id="mobile">
+
+        <header class="navbar-mobile">
+            <nav class="menu-sanduiche">
+            
+                <input type="checkbox" class="menu-hamburguer">
+                
+                <div class="linhas-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+    
+               <ul>
+                <li><a href="pagina-cursos.html">Cursos</a></li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Meus estudos</a></li>
+                </ul>
+    
+            </nav>
+
+            <div class="logo-mobile">
+                <img src="image/logo jovemdevpng.png" alt="logo jovem dev" style="height: 160px;">
+            </div>
+        </header>
+
+    
+    </div>
+
+<!-- FIM DO CABEÇALHO PARA MOBILE-->
+
+
+
+    <div class="context">
+        <h2>Estruturas de Condicionais</h2>
+        <ol>
+            <li><strong>If/Else (Se/Então)</strong></li>
+            <p>As estruturas condicionais são utilizadas para controlar o fluxo de execução de um programa com <br>
+                base em condições lógicas. Elas permitem que partes específicas do código sejam executadas ou <br>
+                ignoradas, dependendo se uma condição é verdadeira ou falsa. As estruturas condicionais mais comuns<br>
+                são o if, else if e else.</p>
+            <ul>
+                <br><br><li><strong>If ou Se: </strong>
+                    <p>A condição é verificada a cada passagem pela estrutura <strong>IF/SE.</strong> <br>
+                        Se a condição for satisfeita (verdadeira), são executadas as
+                        instruções entre chaves (então).</p>
+                    <p>Se a condição <strong>não</strong> for satisfeita (falso), as instruções entre chaves não são
+                        executadas, sendo executado <br>
+                        o código logo após as chaves.</p>
+                    <p>O <strong>IF/SE</strong> sempre executará o bloco de comando ou instrução única se a condição
+                        entre parênteses<br>
+                        retornar um resultado booleano
+                        verdadeiro. Caso contrário, o bloco de comando ou a instrução única<br>
+                        não serão executadas.</p>
+                    <p><i><strong>Sintaxe: </strong></i>
+                    <pre>Se <i>(comandos)</i>
+Então <i>(instruções);</i>
+FimSe
+                    </pre>
+                    </p>
+                </li>
+                <li><strong>Else ou Então:</strong>
+                    <p>
+                        A estrutura else/então é uma parte importante da lógica de programação, especialmente em <br>
+                        construções condicionais. Embora o termo "então" não seja frequentemente utilizado nas <br>
+                        linguagens de programação modernas, a lógica subjacente ainda é a mesma.
+                    </p>
+                    <p>A condição é verificada a cada passagem pela estrutura IF/SE.</p>
+                    <p>Se a condição for satisfeita (verdadeira), são executadas as
+                        instruções entre chaves do IF/SE.</p>
+                    <p>Se a condição NÃO for satisfeita (falso), são executadas as instruções
+                        dentro das chaves do ELSE/SENÃO.</p>
+                    <p>As instruções do ELSE/SENÃO serão executadas somente quando o
+                        valor da condição do IF/SE for falso.</p>
+                    <p><i><strong>Sintaxe: </strong></i></p>
+                    <pre>Se (condição) Então
+{
+(instruções);
+}
+Senão
+{
+(instruções)
+}
+FimSe
+        </pre>
+                </li>
+            </ul>
+            <li><strong>Switch/Case (Escolha/Caso)</strong></li>
+            <p>A estrutura Switch/Case-Escolha/Caso é utilizada quando é necessário
+                testar a mesma variável com uma <br>
+                série de valores (várias vezes).</p>
+            <p>No primeiro CASE/CASO é verificado se o valor recebido como parâmetro
+                é igual ao seu valor.</p>
+            <p>o Se o valor do parâmetro informado for o mesmo (igual) do CASE/CASO,
+                será executado o trecho de código <br>
+                dentro do respectivo CASE/CASO.</p>
+            <p>o Se o valor do parâmetro informado for diferente do CASE/CASO, será
+                testada a condição do próximo <br>
+                CASE/CASO;</p>
+        </ol>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_g05aHdBAEY?si=AMt760-8WhaRslte"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <p class="legenda-video">(Estruturas Condicionais 1 - Gustavo Guanabara)</p>
+        <p class="titulo-aula">Aula 5.1 - Estruturas Condicionais</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7gGFHzqh4d8?si=qmtUOcqSJiPhs6tE"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <p class="legenda-video">(Estruturas Condicionais 2 - Gustavo Guanabara)</p>
+        <p class="titulo-aula">Aula 5.2 - Estruturas Condicionais</p>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <p>crie um programa que verifica se um número é impar ou par</p>
+            </li>
+            <li>
+                <p>Crie um programa que pergunta a idade do usuário. Se a resposta for menor do que 18, imprima<br>
+                    “você é menor de idade”, se tiver entre 18 e 65, imprima “você é adulto”, se for acima de 65
+                    anos,<br>
+                    imprima “você é idoso”.</p>
+            </li>
+            <li>
+                <p>Faça um programa que peça para N pessoas a sua idade, ao final o programa deverá verificar se a
+                    média<br>
+                    de idade da turma está entre 0 e 25, 26 e 60 ou é maior que 60; e então, dizer se a turma é jovem,
+                    adulta<br>
+                    ou idosa, conforme a média calculada.</p>
+            </li>
+            <li>
+                <p>Crie um programa que pergunta a idade do usuário. Se a resposta for menor do que 18, imprima<br>
+                    “você é menor de idade”, se tiver entre 18 e 65, imprima “você é adulto”, se for acima de 65
+                    anos,<br>
+                    imprima “você é idoso”.</p>
+            </li>
+        </ul>
+        <nav>
+            <p>Caso queira dar uma olhadinhas resoluções: <strong><a href="ex_logica.html" class="clique"
+                        target="_blank">clique aqui!</a></strong></p>
+        </nav>
+    </div>
+    </div>
+        
+
+    
+<!--RODAPÉ-->
+
+<div class="rodape">
+    <div class="logo-rodape">
+        <img src="image/logo jovemdevpng.png" alt="logo jovem dev" style="height: 160px;">
+
+    </div>
+
+    <div class="redes-sociais">
+        <ul>
+            <li><img src="image/ICONE WHATS APP.svg" alt="logo do whatsapp" style="height: 50px;"></li>
+            <li><img src="image/ICONE INSTAGRAM.svg" alt="logo do instagram" style="height: 50px;"></li>
+            <li><img src="image/ICONE YOUTUBE.svg" alt="logo do youtube" style="height: 50px;"></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+<footer>
+
+<div class="final">
+    <ul>
+        <li>Jovem Dev. Todos os direitos reservados.</li>
+        <li><a href="#top">Voltar ao topo</a></li>
+    </ul>
+</div>
+
+
+</footer>
+<!--FIM DO RODAPÉ-->
+
+</html>

@@ -1,0 +1,5 @@
+Site Replit
+
+Decidimos testar o site replit com a linguagem de programação python, pois tivemos contato e fizemos uso durante o primeiro módulo. Começamos olhando o dimensionamento responsivo, testamos dimensionamentos de iphone e samsung, e em ambos comprometem a usabilidade do site, as abas tomam muito espaço na tela, dificultando a programação e visualização do código e do próprio resultado. A depuração do código foi rápida e eficiente quando feita através do notebook, mesmo usando estrutura de repetição, coleção, import e condicionais. Enfim, através dos testes, foi possível verificar que o dimensionamento de celular não é a melhor maneira de usar o replit, acreditamos quem deva ser usada apenas em uma necessidade, vale salientar que foi testada a versão mobile pelo próprio aplicativo, como também a devTools do site do replit. Já a versão para desktop funciona bem, problemas de depuração não são recorrentes, mas dependendo do tamanho e estrutura do código em questão. Serve para atividades simples, podendo ter dificuldades em projetos de médio a grande porte, principalmente se for utilizado mais de um arquivo.
+
+
